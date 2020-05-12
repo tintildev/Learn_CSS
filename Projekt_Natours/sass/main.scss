@@ -11,6 +11,10 @@ $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
 
+$color-grey-dark: #777;
+$color-white: #fff;
+$color-black: #000;
+
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +26,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.7;
-    color: #777;
+    color: $color-grey-dark;
     padding: 30px;
 }
 
@@ -38,28 +42,28 @@ body{
     position: relative;
 
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-}
 
-.header__logo-box{
-    position: absolute;
-    top: 40px;
-    left: 40px;
-}
+    &__logo-box {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
 
-.header__logo {
-    height: 35px;
-}
-
-.header__text-box{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    &__logo {
+        height: 35px;
+    }
+    
+    &__text-box{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
 }
 
 .heading-primary{
-    color: #fff;
+    color: $color-white;
     text-transform: uppercase;
 
     backface-visibility: hidden;
@@ -144,17 +148,17 @@ body{
 
 .btn:hover{
     transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0,0,0, .2);
+    box-shadow: 0 10px 20px rgba($color-black, .2);
 }
 
 .btn:active{
     transform: translateY(-1px);
-    box-shadow: 0 5px 10px rgba(0,0,0, .2);
+    box-shadow: 0 5px 10px rgba($color-black, .2);
 }
 
 .btn--white{
-    background-color: #fff;
-    color: #777;
+    background-color: $color-white;
+    color: $color-grey-dark;
 }
 
 .btn::after{
@@ -171,7 +175,7 @@ body{
 }
 
 .btn--white::after{
-    background-color: #fff;
+    background-color: $color-white;
 }
 
 .btn:hover::after{
