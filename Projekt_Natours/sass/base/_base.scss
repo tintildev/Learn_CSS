@@ -1,11 +1,14 @@
 //Basis Datein
-*{
+
+*,
+*::after,
+*::before{
     margin: 0;
     padding: 0;
     box-sizing: inherit;
 }
+
 html{
-    //Beschreibt was 1rem ist.
     font-size: 62.5%;
 }
 
