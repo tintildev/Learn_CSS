@@ -1,0 +1,14 @@
+{
+  "name": "grid_system",
+  "version": "1.0.0",
+  "description": "First Grid System",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Martin Klestil",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
