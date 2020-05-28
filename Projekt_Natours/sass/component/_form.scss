@@ -61,6 +61,10 @@
         display: inline-block;
     }
 
+    &__radio-input{
+        display: none;
+    }
+
     &__radio-label{
         font-size: $default-font-size;
         cursor: pointer;
@@ -75,7 +79,7 @@
         border-radius: 50%;
         display: inline-block;
         position: absolute;
-        top: 0;
+        top: -.4rem;
         left: 0;
 
         &::after{

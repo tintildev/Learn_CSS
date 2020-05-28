@@ -388,6 +388,9 @@ body {
   width: 49%;
   display: inline-block; }
 
+.form__radio-input {
+  display: none; }
+
 .form__radio-label {
   font-size: 1.6rem;
   cursor: pointer;
@@ -401,7 +404,7 @@ body {
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  top: 0;
+  top: -.4rem;
   left: 0; }
   .form__radio-button::after {
     content: "";
