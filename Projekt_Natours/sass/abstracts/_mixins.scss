@@ -5,3 +5,7 @@
         clear: both;
     }
 }
+
+@mixin translateCenter {
+    transform: translate(-50%, -50%);
+}
