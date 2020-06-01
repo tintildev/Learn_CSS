@@ -28,7 +28,7 @@
 
         z-index: 1000;
         
-        transform: all .4s;
+        transform: transform cubic-bezier(0.86, 0, 0.07, 1);
     }
 
     &__nav {
