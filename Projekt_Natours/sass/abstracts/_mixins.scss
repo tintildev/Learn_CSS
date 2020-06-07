@@ -21,7 +21,8 @@
 900-1200px: Tablet landscape
 (1200-1800px): is where our normal styles apply
 1800px + :  Big desktop
-
-
-
 */
+
+@mixin respond-phone {
+    @media (max-width: 600px){ @content };
+}
