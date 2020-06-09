@@ -16,7 +16,7 @@ html{
         font-size: 56.25%;          //1 rem = 9px, 9px/16px = 56.25%
     }
 
-    @include respond(tab-port){     // width < 800 ?
+    @include respond(tab-port){     // width < 900 ?
         font-size: 50%;             //1 rem = 8px, 8px/16px = 50%
     }
 
