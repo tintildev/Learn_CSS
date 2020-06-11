@@ -3,16 +3,17 @@
     //Zentrieren
     margin: 0 auto;    
 
-    @include respond(tab-port){     
-        max-width: $grid-width-mobil;     
-    }
-
     &:not(:last-child){
         margin-bottom: $gutter-vertical;
 
         @include respond(tab-port){     
             margin-bottom: $gutter-vertical-small;        
         }
+    }
+
+    @include respond(tab-port){     
+        max-width: $grid-width-mobil;
+        padding: 0 3 rem;   
     }
 
     @include clearfix;
