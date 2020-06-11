@@ -12,6 +12,11 @@
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
 
+    @include respond(tab-port){     
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);       
+    }
+
     //& bedutet in diesen Fall .header
     &__logo-box {
         position: absolute;
