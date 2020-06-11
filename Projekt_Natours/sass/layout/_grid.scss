@@ -13,7 +13,7 @@
 
     @include respond(tab-port){     
         max-width: $grid-width-mobil;
-        padding: 0 3 rem;   
+        padding: 0 3rem;   
     }
 
     @include clearfix;

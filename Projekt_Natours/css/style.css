@@ -613,7 +613,7 @@ body {
   @media (max-width: 56.25em) {
     .row {
       max-width: 50rem;
-      padding: 0 3 rem; } }
+      padding: 0 3rem; } }
   .row::after {
     content: "";
     display: table;
