@@ -28,6 +28,14 @@
     &__left{
         width: 33.33333%;
         display:  table-cell;
+
+        @include respond(tab-land){
+            vertical-align: middle;
+        }
+
+        @include respond(tab-port){
+            width: 0%;
+        }
     }
 
     &__right{
@@ -35,6 +43,10 @@
         display:  table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
+
+        @include respond(tab-port){
+            width: 100%;
+        }
     }
 
     &__img{
