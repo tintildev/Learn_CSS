@@ -260,7 +260,12 @@
                 <div class="row">
                     <div class="story">
                         <figure class="story__shape">
-                            <img src="img/mk.jpg" alt="Martin Klestil" class="story__img">
+                            <img srcset="img/mk.png 480w,
+                                         img/mk-large.png 800w"
+                                 sizes="(max-width: 600px) 250px, 400px"
+                                 class="story__img"
+                                 src="img/mk-large.png"
+                                 alt="Martin Klestil">
                             <figcaption class="story__caption">Martin Klestil</figcaption>
                         </figure>
                         <div class="sotry__text">
@@ -275,7 +280,12 @@
                 <div class="row">
                     <div class="story">
                         <figure class="story__shape">
-                            <img src="img/mk-0.jpg" alt="Martin Klestil" class="story__img">
+                            <img srcset="img/mk-0.png 480w,
+                                         img/mk-0-large.png 800w"
+                                 sizes="(max-width: 600px) 250px, 400px"
+                                 class="story__img"
+                                 src="img/mk-0-large.png"
+                                 alt="Martin Klestil">
                             <figcaption class="story__caption">Lisa Musterfrau</figcaption>
                         </figure>
                         <div class="sotry__text">
@@ -365,8 +375,19 @@
         <div class="popup" id="popup">
             <div class="popup__content">
                 <div class="popup__left">
-                    <img src="img/mk-1.jpg" alt="Tour photo" class="popup__img">
-                    <img src="img/mk-2.jpg" alt="Tour photo" class="popup__img">
+                    <img srcset="img/mk-1.png 1200w,
+                                 img/mk-1-large.png 2400w"
+                         sizes="(max-width: 1200px) 350px, 700px"
+                         class="popup__img"
+                         src="img/mk-1-large.png"
+                         alt="Tour photo">
+
+                    <img srcset="img/mk-2.png 1200w,
+                                 img/mk-2-large.png 2400w"
+                         sizes="(max-width: 1200px) 350px, 700px"
+                         class="popup__img"
+                         src="img/mk-2-large.png"
+                         alt="Tour photo">
                 </div>
                 <div class="popup__right">
                     <a href="#section-torus" class="popup__close">&times;</a>
