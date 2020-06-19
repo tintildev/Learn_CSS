@@ -260,7 +260,7 @@
                 <div class="row">
                     <div class="story">
                         <figure class="story__shape">
-                            <img srcset="img/mk.png 480w,
+                            <img srcset="img/mk.png 200w,
                                          img/mk-large.png 800w"
                                  sizes="(max-width: 600px) 250px, 400px"
                                  class="story__img"
@@ -280,7 +280,7 @@
                 <div class="row">
                     <div class="story">
                         <figure class="story__shape">
-                            <img srcset="img/mk-0.png 480w,
+                            <img srcset="img/mk-0.png 200w,
                                          img/mk-0-large.png 800w"
                                  sizes="(max-width: 600px) 250px, 400px"
                                  class="story__img"
@@ -375,19 +375,16 @@
         <div class="popup" id="popup">
             <div class="popup__content">
                 <div class="popup__left">
-                    <img srcset="img/mk-1.png 1200w,
-                                 img/mk-1-large.png 2400w"
-                         sizes="(max-width: 1200px) 350px, 700px"
-                         class="popup__img"
-                         src="img/mk-1-large.png"
-                         alt="Tour photo">
-
-                    <img srcset="img/mk-2.png 1200w,
-                                 img/mk-2-large.png 2400w"
-                         sizes="(max-width: 1200px) 350px, 700px"
-                         class="popup__img"
-                         src="img/mk-2-large.png"
-                         alt="Tour photo">
+                    <picture>
+                        <source media="(max-width: 75em)" srcset="img/mk-1.png" class="popup__img" alt="Tour photo">
+                        <source media="(min-width: 75.1em)" srcset="img/mk-1-large.png" class="popup__img" alt="Tour photo">
+                        <img src="img/mk-1-large.png" alt="Tour photo" class="popup__img">
+                    </picture>
+                    <picture>
+                        <source media="(max-width: 75em)" srcset="img/mk-2.png" class="popup__img" alt="Tour photo">
+                        <source media="(min-width: 75.1em)" srcset="img/mk-2-large.png" class="popup__img" alt="Tour photo">
+                        <img src="img/mk-1-large.png" alt="Tour photo" class="popup__img">
+                    </picture>
                 </div>
                 <div class="popup__right">
                     <a href="#section-torus" class="popup__close">&times;</a>
