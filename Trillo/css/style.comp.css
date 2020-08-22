@@ -79,8 +79,7 @@ body {
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--color-grey-light-2);
-  display: flex;
-  justify-content: space-between; }
+  display: flex; }
 
 .content {
   display: flex; }
