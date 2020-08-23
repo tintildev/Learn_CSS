@@ -80,7 +80,8 @@ body {
   background-color: #fff;
   border-bottom: var(--color-grey-light-2);
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
 
 .content {
   display: flex; }
