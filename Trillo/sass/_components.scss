@@ -71,7 +71,25 @@
 
 .user-nav {
     background-color: yellowgreen;
+    align-self: stretch;
+    
+    display: flex;
+    align-items: center;
+    
+    //Direkten Kinder
+    & > * {
+        padding: 0 2 rem;
+        cursor: pointer; 
+        height: 100%;
+    }
+
+    & > *:hover {
+        background-color: var(--color-grey-light-2);  
+    }
+
     &__icon-box {
+        display: flex;
+        align-items: center;
         
     }
 

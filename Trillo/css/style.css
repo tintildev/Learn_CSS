@@ -92,7 +92,19 @@ body {
     color: var(--color-grey-light-4); }
 
 .user-nav {
-  background-color: yellowgreen; }
+  background-color: yellowgreen;
+  align-self: stretch;
+  display: flex;
+  align-items: center; }
+  .user-nav > * {
+    padding: 0 2 rem;
+    cursor: pointer;
+    height: 100%; }
+  .user-nav > *:hover {
+    background-color: var(--color-grey-light-2); }
+  .user-nav__icon-box {
+    display: flex;
+    align-items: center; }
   .user-nav__icon {
     height: 2.25rem;
     width: 2.25rem; }
