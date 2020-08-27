@@ -87,6 +87,9 @@ body {
     height: 2rem;
     width: 2rem;
     fill: var(--color-grey-dark-3); }
+  .search::-webkit-input-placeholder {
+    font-weight: 100;
+    color: var(--color-grey-light-4); }
 
 .user-nav {
   background-color: yellowgreen; }
@@ -105,6 +108,7 @@ body {
   min-height: 50rem; }
 
 .header {
+  font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--color-grey-light-2);
