@@ -70,7 +70,7 @@
 ///// USER NAVIGATION
 
 .user-nav {
-    background-color: yellowgreen;
+    
     align-self: stretch;
     
     display: flex;
@@ -81,6 +81,8 @@
         padding: 0 2 rem;
         cursor: pointer; 
         height: 100%;
+        display: flex;
+        align-items: center;
     }
 
     & > *:hover {
@@ -88,18 +90,26 @@
     }
 
     &__icon-box {
-        display: flex;
-        align-items: center;
+       position: relative;
         
     }
 
     &__icon {
         height: 2.25rem;
         width: 2.25rem;
+        background-color: var(--color-grey-dark-2);  
     }
 
     &__notification {
-
+        font-size: .8rem;
+        height: 1.75rem;
+        width: 1.75rem;
+        border-radius: 50%;
+        background-color: var(--color-primary);
+        color: #fff;
+        position: absolute;
+        top: 1.5rem;
+        right: 1.1rem;
     }
 
     &__user {
