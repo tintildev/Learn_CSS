@@ -224,8 +224,9 @@
 
     }
 
-    &__start {
-        flex: 1;
+    &__stars {
+        //flex: 1; 
+        margin-right: auto;
     }
 
     &__icon-star,
