@@ -101,7 +101,7 @@
     }
 
     &__notification {
-        font-size: .8rem;
+        font-size: var(--small-font-size);
         height: 1.75rem;
         width: 1.75rem;
         border-radius: 50%;
@@ -222,7 +222,7 @@
     border-bottom: 1px solid var(--color-grey-light-2);
 
     &__heading {
-        font-size: 2.25rem;
+        font-size: var(--big-font-size);
         font-weight: 300;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -253,15 +253,27 @@
     }
 
     &__rating {
+        background-color: var(--color-primary);
+        color: #fff;
+        margin-left: 3rem;
+        padding: 0 2.25rem;
+        align-self: stretch;
 
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
     }
 
     &__rating-average {
-
+        font-size: var(--big-font-size);
+        font-weight: 300;
+        padding: -3px;
     }
 
     &__rating-count {
-
+        font-size: var(--small-font-size);
+        text-transform: uppercase;
     }
     
 }
