@@ -1,0 +1,57 @@
+/* Building an icon bar with the tutorial from https://www.w3schools.com/ */
+
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.icon-bar {
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* vertical */
+.icon-bar-vertical {
+    width: 100px;
+    background-color: darkgrey;
+}
+
+.icon-bar-vertical a {
+    display: block; /* side by side */
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease; /* Animation for hover */
+    color: white;
+    font-size: 36px;
+}
+
+/* horizontal */
+.icon-bar-horizontal {
+    width: 100%;
+    background-color: darkgrey;
+    overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar-horizontal a {
+    float: left; /* side by side */
+    text-align: center;
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0;
+    transition: all 0.3s ease; /* Animation for hover */
+    color: white;
+    font-size: 36px;
+}
+
+/* Hover Effekt */
+.icon-bar a:hover {
+    background-color: black;
+}
+
+/* Active Effekt */
+.active {
+    background-color: chartreuse;
+}
