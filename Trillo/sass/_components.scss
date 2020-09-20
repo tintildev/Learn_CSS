@@ -372,9 +372,15 @@
 
 .recommend {
     font-size: 1.3rem;
-    color: var(--color-grey-light-3);
+    color: var(--color-grey-dark-3);
+
+    display: flex;
 
     &__count {
+
+    }
+
+    &__friends {
 
     }
 
@@ -382,5 +388,10 @@
         height: 4rem;
         width: 4rem;
         border-radius: 50%;
+        border: 3px solid #fff;
+
+        &:not(:last-child) {
+            margin-right: -1.5rem;
+        }
     }
 }
