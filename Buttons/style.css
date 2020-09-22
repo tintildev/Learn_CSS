@@ -10,13 +10,25 @@
 }
 
 /* Container */
+.box {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  flex-direction: column;
+  height: 100%;
+}
 
 .container {
-    display: flex;
-    background-color: lightgray;
-    margin: 2rem;
-    justify-content: space-around;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  margin: 2rem;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 5px;
 }
+
 
 /* Buttons */
 .button {
@@ -42,6 +54,7 @@
     border-radius: 10rem;
     transition: all .2s;
     font-size: 1.6rem;
+    color: black;
     
 
     border: none;
