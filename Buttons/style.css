@@ -60,6 +60,15 @@
     border: none;
     cursor: pointer; 
 }
+
+.btn:hover {
+  box-shadow: 0 1rem 2rem lightgrey;
+}
+
+.btn:active, .btn:focus {
+  outline: none;
+  box-shadow: 0 0.5rem 1rem lightgrey;
+}
     
   .btn--white {
     background-color: #fff;
