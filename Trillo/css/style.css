@@ -339,6 +339,12 @@ body {
   flex: 0 0 60%;
   margin-right: 4.5rem; }
 
-.user-reviews {
-  background-color: yellowgreen;
-  flex: 1; }
+.review {
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  margin-bottom: 3.5rem; }
+  .review__photo {
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%; }
