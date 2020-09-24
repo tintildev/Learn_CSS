@@ -295,6 +295,16 @@ body {
     .recommend__photo:not(:last-child) {
       margin-right: -1.5rem; }
 
+.review {
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  margin-bottom: 3.5rem; }
+  .review__photo {
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%; }
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
@@ -339,12 +349,5 @@ body {
   flex: 0 0 60%;
   margin-right: 4.5rem; }
 
-.review {
-  background-color: #fff;
-  box-shadow: var(--shadow-light);
-  padding: 3rem;
-  margin-bottom: 3.5rem; }
-  .review__photo {
-    height: 4.5rem;
-    width: 4.5rem;
-    border-radius: 50%; }
+.user-reviews {
+  flex: 1; }
