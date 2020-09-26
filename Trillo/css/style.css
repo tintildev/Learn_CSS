@@ -31,7 +31,10 @@ Grey dark 3: #999
   --line: 1px solid var(--color-grey-light-2);
   --big-font-size: 2.25rem;
   --default-font-size: 1.4rem;
-  --small-font-size: 0.8rem; }
+  --small-font-size: 0.8rem;
+  --bould-font-weight: 600;
+  --default-font-weight: 400;
+  --small-font-weight: 300; }
 
 * {
   margin: 0;
@@ -308,9 +311,22 @@ body {
   .review__photo {
     height: 4.5rem;
     width: 4.5rem;
-    border-radius: 50%; }
+    border-radius: 50%;
+    margin-right: 1.5rem; }
   .review__user-box {
     margin-right: auto; }
+  .review__user-name {
+    font-size: 1.1rem;
+    font-weight: var(--bould-font-weight);
+    text-transform: uppercase;
+    margin-bottom: .4rem; }
+  .review__user-date {
+    font-size: 1rem;
+    color: var(--color-grey-dark-3); }
+  .review__rating {
+    color: var(--color-primary);
+    font-size: 2.2rem;
+    font-weight: var(--small-font-weight); }
 
 .container {
   max-width: 120rem;
