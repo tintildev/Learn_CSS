@@ -364,18 +364,26 @@ body {
   border: none;
   background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary));
   color: #fff;
-  position: relative; }
-  .btn__visible {
+  position: relative;
+  overflow: hidden; }
+  .btn > * {
     display: inline-block;
-    padding: 2rem 7.5rem; }
-  .btn__invisible {
-    display: inline-block;
-    position: absolute;
-    padding: 2rem 0;
     height: 100%;
     width: 100%;
+    transition: all .2s; }
+  .btn__visible {
+    padding: 2rem 7.5rem; }
+  .btn__invisible {
+    position: absolute;
+    padding: 2rem 0;
     left: 0;
     top: -100%; }
+  .btn:hover {
+    background-image: linear-gradient(to left, var(--color-primary-dark), var(--color-primary-light)); }
+  .btn:hover .btn__visible {
+    transform: translateY(100%); }
+  .btn:hover .btn__invisible {
+    top: 0; }
 
 .container {
   max-width: 120rem;

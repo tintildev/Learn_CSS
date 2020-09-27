@@ -497,22 +497,41 @@
     text-transform: uppercase;
     border-radius: 100px;
     border: none;
-    background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary));
+    background-image: linear-gradient(to right, var(--color-primary-dark), var(--color-primary-light));
     color: #fff;
     position: relative;
+    overflow: hidden;
+
+    & > * {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        transition: all .2s;
+    }
 
     &__visible {
-        display: inline-block;
         padding: 2rem 7.5rem;
+    
     }
 
     &__invisible {
-        display: inline-block;
         position: absolute;
         padding: 2rem 0;
-        height: 100%;
-        width: 100%;
         left: 0;
         top: -100%;
     }
+
+    &:hover {
+        background-image: linear-gradient(to left, var(--color-primary-dark), var(--color-primary-light));
+    }
+
+
+    &:hover &__visible {
+        transform: translateY(100%)
+    }
+
+    &:hover &__invisible {
+            top: 0;
+    }
+    
 }
