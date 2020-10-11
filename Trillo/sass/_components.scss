@@ -419,15 +419,19 @@
 
 
         //Older browsers
-        //background-image: url(../img/pfeil.svg);
-        //background-size: cover;
+        background-image: url(../img/pfeil.svg);
+        background-size: cover;
 
         //Newer Browsers - masks
-        background-color: var(--color-primary);
-        -webkit-mask-image: url(../img/pfeil.svg);
-        -webkit-mask-size: cover;
-        mask-image: url(../img/pfeil.svg);
-        mask-size: cover;
+        @supports (-webkit-mask-image: url() or (mask-image: url())){
+            background-color: var(--color-primary);
+            -webkit-mask-image: url(../img/pfeil.svg);
+            -webkit-mask-size: cover;
+            mask-image: url(../img/pfeil.svg);
+            mask-size: cover;
+            background-image: none;
+        }
+        
     }
 }
 
