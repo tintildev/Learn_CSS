@@ -1,16 +1,18 @@
-/* Naming Grid Lines */
+/* Naming Grid Areas */
 .challenge {
     width: 1000px;
     margin: 30px auto;
 
     display: grid;
-    /* Naming with [] */
-    grid-template-rows: [header-start] 100px [header-end box-start] 
-                        200px [box-end main-start] 
-                        400px [main-end footer-start]
-                        180px [footer-end];
-    grid-template-columns: repeat(3, [col-start] 1fr [col-end]) 200px [grid-end];
+    grid-template-rows:  100px 200px 400px 180px;
+    grid-template-columns: repeat(3, 1fr) 200px;
     grid-gap: 30px;
+
+    /* Naming Grid Areas */
+    grid-template-areas: "head head head head"
+                         "box box box side"   
+                         "main main main side"
+                         "foot foot foot foot";
 }
 
 .div{
@@ -22,18 +24,17 @@
 }
 
 .header {
-    grid-column: col-start 1 / grid-end;
+    grid-area: head;
 }
 
 .sidebar {
-    grid-column: col-end 3 / grid-end;
-    grid-row: box-start / main-end;
+    grid-area: side;
 }
 
 .main-content {
-    grid-column:  col-start 1 / col-end 3;
+    grid-area: main;
 }
 
 .footer {
-    grid-column: col-start 1 / grid-end;
+    grid-area: foot;
 }
