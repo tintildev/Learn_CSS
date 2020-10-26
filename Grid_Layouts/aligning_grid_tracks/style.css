@@ -4,30 +4,16 @@
     background-color: #ddd;
 
     display: grid;
-    /* We only define 2 lines and 2 rows */
-    grid-template-rows: repeat(2, 150px);
-    grid-template-columns: repeat(2, 1fr);
-    /* Distances in between */
+    
     grid-gap: 30px;
 
-    /* specifies the size of an implicitly-created grid */
     grid-auto-rows: 80px;
-
-    /* specifying exactly how auto-placed items get flowed into the grid */
     grid-auto-flow: row;
-
-    /* specifies the size of an implicitly-created grid column  */
     grid-auto-columns: .5fr;
 
-    /* Aligns flex items along the cross axis of the current line of the flex container. */
-    align-items: center;
-
-    /* standard value
-    align-items:stretch
-    */
-
-    /*Defines default way of justifying each box along the appropriate axis*/
-    justify-items: center;
+    /* Align grid tracks to grid container */
+    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: repeat(2, 200px);
 
 }
 
