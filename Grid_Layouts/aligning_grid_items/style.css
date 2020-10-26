@@ -1,0 +1,50 @@
+.container {
+    width: 1000px;
+    margin: 30px auto;
+    background-color: #ddd;
+
+    display: grid;
+    /* We only define 2 lines and 2 rows */
+    grid-template-rows: repeat(2, 150px);
+    grid-template-columns: repeat(2, 1fr);
+    /* Distances in between */
+    grid-gap: 30px;
+
+    /* specifies the size of an implicitly-created grid */
+    grid-auto-rows: 80px;
+
+    /* specifying exactly how auto-placed items get flowed into the grid */
+    grid-auto-flow: row;
+
+    /* specifies the size of an implicitly-created grid column  */
+    grid-auto-columns: .5fr;
+
+    /* Aligns flex items along the cross axis of the current line of the flex container. */
+    align-items: center;
+
+    /* standard value
+    align-items:stretch
+    */
+
+    /*Defines default way of justifying each box along the appropriate axis*/
+    justify-items: center;
+
+}
+
+.item {
+    padding: 20px;
+    color:white;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: orangered;
+}
+
+.item--4 {
+    background-color: crimson;
+    grid-row: 2 / span 3;
+}
+
+.item--7 {
+    background-color: palevioletred;
+    grid-column: 1 / -1;
+}
