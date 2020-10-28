@@ -1,0 +1,35 @@
+.container {
+    width: 1000px;
+    margin: 30px auto;
+    background-color: #ddd;
+
+    display: grid;
+    /* Using auto-fill and auto-fit */
+    grid-template-rows: repeat(2, minmax(150px, min-content));
+
+    /* Auto-fill */
+    grid-template-columns: repeat(auto-fill, 100px);
+    /* Auto-fit */
+    grid-template-columns: repeat(auto-fit, 100px);
+    /* combination */
+    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+
+}
+
+.item {
+    padding: 20px;
+    color:white;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: orangered;
+}
+
+.item--2{ background-color: green;}
+.item--3{ background-color: violet;}
+.item--4{ background-color: orange;}
+.item--5{ background-color: pink;}
+.item--6{ background-color: blue;}
+.item--6{ background-color: grey;}
+.item--7{ background-color: red;}
