@@ -6,10 +6,11 @@ A mockup landing page for a travel agency startup. This coding exercise capitali
 - Responsive website
 - Understanding CSS
 - Sass understand
-- Learn block element modifiers
+- Learn block element modifiers - [BEM](http://getbem.com/) 
 
 # Resources
 
-- Images: Unspash, my personal pictures
-- Videos: Coverr
+- Images: [Unspash](https://unsplash.com), my personal pictures
+- Videos: [Coverr](https//coverr.co/)
 
+# Features 
