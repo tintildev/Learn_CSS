@@ -3,6 +3,16 @@
     margin: 30px auto;
     background-color: #ddd;
 
+    display: grid;
+    /* max-content: Representing the largest maximal content contribution of the grid items occupying the grid track.
+       min-content: Representing the largest minimal content contribution of the grid items occupying the grid track.
+    */
+    grid-template-columns: max-content 1fr 1fr min-content;
+    /* minmax: Is a functional notation that defines a size range greater than or equal to min and less than or equal to max. 
+    If max is smaller than min, then max is ignored and the function is treated as min. 
+    As a maximum, a <flex> value sets the track’s flex factor. It is invalid as a minimum.*/
+    grid-template-rows: repeat(2, minmax(150px, min-content));
+
 }
 
 .item {
