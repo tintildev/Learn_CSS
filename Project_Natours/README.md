@@ -10,5 +10,6 @@ A mockup landing page for a travel agency startup. This coding exercise capitali
 
 # Resources
 
-Images for project were found at: Unspash
-Videos for project were found at: Coverr
+- Images: Unspash, my personal pictures
+- Videos: Coverr
+
