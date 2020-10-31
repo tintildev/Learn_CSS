@@ -43,4 +43,10 @@ body {
                            [center-start] repeat(8,[col-start] minmax(min-content, 14rem)[col-end])[center-end]
                             1fr [full-end];
     /* Sidebare, 1fr placeholder, 8 grid, 1fr placeholder */
+
+    & > * {
+        /* testing */
+        padding: 40px;
+        font-size: 3rem;
+    }
 }
