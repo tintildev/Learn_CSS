@@ -24,7 +24,9 @@ body {
   /* Sidebare, 1fr placeholder, 8 grid, 1fr placeholder */ }
 
 .sidebar {
-  background-color: #c69963; }
+  background-color: #c69963;
+  grid-column: sidebar-start / sidebar-end;
+  grid-row: 1 / -1; }
 
 .header {
   background-color: #54483A; }
