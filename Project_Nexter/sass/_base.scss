@@ -44,9 +44,5 @@ body {
                            minmax(6rem, 1fr)  [full-end];
     /* Sidebare, 1fr placeholder, 8 grid, 1fr placeholder */
 
-    & > * {
-        /* testing */
-        padding: 40px;
-        font-size: 3rem;
-    }
+   
 }
