@@ -3,10 +3,8 @@ A repository to learn CSS, Sass, Flexbox, Grid, Animations and more.
 
 # Goals
 - Learn modern HTML and CSS
-- Fokus of this project is on grid
 - Responsive website
-- Understanding CSS
-- Sass understand
+- Learn Sass 
 - Learn block element modifiers - [BEM](http://getbem.com/) 
 
 # Resources
