@@ -16,7 +16,7 @@ This project was created during the Udemy course [Advanced CSS and Sass: Flexbox
 
 - Images: [Unspash](https://unsplash.com), my personal pictures
 - Videos: [Coverr](https//coverr.co/)
-- Icons: [linea](https://linea.io/)
+- Icons: my personal icons
 
 
 
