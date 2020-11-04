@@ -6,12 +6,16 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 6rem;  
+    align-items: start;
 }
 
 .feature {
 
     display: grid;
     grid-template-columns: min-content 1fr;
+    //for the distances
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 1.5rem;
 
     &__icon {
         fill: $color-primary;
