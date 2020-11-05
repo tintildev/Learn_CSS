@@ -4,7 +4,8 @@
     margin: 15rem 0;
 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    // auto-fit - different numbers of columns are created depending on how many fit into the viewport.
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 6rem;  
     align-items: start;
 }
