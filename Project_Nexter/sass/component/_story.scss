@@ -9,12 +9,28 @@
         background-color: $color-grey-light-1;
         grid-column: col-start 5 / full-end;
 
-        padding: 6rem 12rem;
+        padding: 6rem 8vw;
+        
+        
+        /* Solution with Flexbox
+        display: flex;
+        flex-direction: column;
+        //Aligns flex items along the main axis of the current line of the flex container.
+        justify-content: center;
+        //Default Stretch overried
+        align-items: flex-start;
+        */
+
+        /* Solution with Grid */
+        display: grid;
+        align-content: center;
+        justify-items: start;
     }
 
     &__text {
         font-size: 1.5rem;
         font-style: italic;
+        margin-bottom: 4rem;
     }
     
 }
