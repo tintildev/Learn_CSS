@@ -38,7 +38,7 @@ body {
 
 .heading-3 {
   font-size: 1.6rem;
-  color: #c69963;
+  color: #fce38a;
   text-transform: uppercase; }
 
 .heading-4 {
@@ -61,12 +61,12 @@ body {
   margin-bottom: 8rem; }
 
 .sidebar {
-  background-color: #c69963;
+  background-color: #fce38a;
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1; }
 
 .btn {
-  background-color: #c69963;
+  background-color: #fce38a;
   color: #fff;
   border: none;
   border-radius: 0;
@@ -79,7 +79,7 @@ body {
     background-color: #54483A; }
 
 .realtors {
-  background-color: #101d2c;
+  background-color: #eaffd0;
   grid-column: col-start 7 / full-end; }
 
 .features {
@@ -96,7 +96,7 @@ body {
   grid-row-gap: 1.5rem;
   grid-column-gap: 1.5rem; }
   .feature__icon {
-    fill: #c69963;
+    fill: #fce38a;
     width: 4.5rem;
     height: 4.5rem;
     grid-row: 1 / span 2; }
@@ -104,9 +104,9 @@ body {
     font-size: 1.7rem; }
 
 .story__pictures {
-  background-color: #c69963;
+  background-color: #fce38a;
   grid-column: full-start / col-end 4;
-  background-image: linear-gradient(rgba(198, 153, 99, 0.5), rgba(198, 153, 99, 0.5)), url(../img/back.jpg);
+  background-image: linear-gradient(rgba(252, 227, 138, 0.5), rgba(252, 227, 138, 0.5)), url(../img/back.jpg);
   display: grid;
   grid-template-rows: repeat(6, 1fr);
   grid-template-columns: repeat(6, 1fr);
@@ -166,5 +166,5 @@ body {
   grid-column: full-start / col-end 6; }
 
 .footer {
-  background-color: #101d2c;
+  background-color: #eaffd0;
   grid-column: full-start / full-end; }
