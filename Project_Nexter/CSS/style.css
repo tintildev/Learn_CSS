@@ -165,12 +165,16 @@ body {
   .home__img {
     width: 100%;
     grid-row: 1 / 2;
-    grid-column: 1 / -1; }
+    grid-column: 1 / -1;
+    z-index: 1; }
   .home__like {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
     height: 2.5rem;
-    width: 2.5rem; }
+    width: 2.5rem;
+    z-index: 2;
+    justify-self: end;
+    margin: 1rem; }
   .home__name {
     grid-column: 1 / -1; }
   .home__location img, .home__rooms img, .home__area img, .home__price img {
