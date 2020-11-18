@@ -153,6 +153,8 @@ body {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(7, 5vw); }
+  .gallery > * {
+    width: 100%; }
 
 .homes {
   grid-column: center-start / center-end;
