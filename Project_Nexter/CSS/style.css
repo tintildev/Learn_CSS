@@ -152,9 +152,14 @@ body {
   background-color: #f9f7f6;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(7, 5vw); }
-  .gallery > * {
-    width: 100%; }
+  grid-template-rows: repeat(7, 5vw);
+  grid-gap: 1.5rem;
+  padding: 1.5rem; }
+  .gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; }
 
 .homes {
   grid-column: center-start / center-end;
