@@ -6,4 +6,12 @@
 
 .nav {
     list-style: none;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+
+    &__link:link,
+    &__link:visited {
+        font-size: $default-font-size;
+    }
 }

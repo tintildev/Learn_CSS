@@ -43,7 +43,7 @@
         justify-self: center;
 
         font-family: $font-display;
-        font-size: 1.6rem;
+        font-size: $big-font-size;
         text-align: center;
         padding: 1.25rem;
         background-color: $color-secondary;
@@ -63,7 +63,7 @@
     &__area,
     &__price {
 
-        font-size: 1.5rem;
+        font-size: $medium-font-size;
         margin-left: 2rem;
         display: flex;
         align-items: center;
