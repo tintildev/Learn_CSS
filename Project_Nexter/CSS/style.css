@@ -106,6 +106,13 @@ body {
 .realtors {
   background-color: #101d2c;
   grid-column: col-start 7 / full-end; }
+  .realtors__list {
+    display: grid; }
+  .realtors__img {
+    width: 7rem;
+    height: auto;
+    border-radius: 50%;
+    display: block; }
 
 .features {
   grid-column: center-start / center-end;
