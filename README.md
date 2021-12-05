@@ -22,9 +22,9 @@ A repository to learn CSS, Sass, Flexbox, Grid, Animations and more.
 ### Projects
 These projects were created as part of the Udemy [Advanced CSS and Sass](https://www.udemy.com/course/advanced-css-and-sass/) course.
 
-Natours - First Sass project
-Trillo - Sass and Flexbox project
-Nexter - Sass and Grid Layout project
+- Natours - First Sass project
+- Trillo - Sass and Flexbox project
+- Nexter - Sass and Grid Layout project
 
 ### Screenshot
 Natours:
