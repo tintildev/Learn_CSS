@@ -5,6 +5,7 @@ A repository to learn CSS, Sass, Flexbox, Grid, Animations and more.
 
 - [Overview](#overview)
   - [Goals](#goals)
+  - [Projects](#projects)
   - [Screenshot](#screenshot)
   - [Resources](#resources)
 
