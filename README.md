@@ -20,7 +20,9 @@ A repository to learn CSS, Sass, Flexbox, Grid, Animations and more.
 - Learn block element modifiers - [BEM](http://getbem.com/) 
 
 ### Projects
-These projects were created as part of the Udemy [Advanced CSS and Sass](https://www.udemy.com/course/advanced-css-and-sass/) course.
+- Basics - Some basic css stuff.
+
+This projects were created as part of the Udemy [Advanced CSS and Sass](https://www.udemy.com/course/advanced-css-and-sass/) course.
 
 - Natours - First Sass project
 - Trillo - Sass and Flexbox project
