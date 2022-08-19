@@ -221,8 +221,7 @@ h2 a {
   cursor: pointer;
   transition: 1s; }
   .btn:hover {
-    background-color: var(--color-primary-dark);
-    transform: scale(1.2); }
+    background-color: var(--color-primary-dark); }
 
 .story__pictures {
   background-color: var(--color-primary);
