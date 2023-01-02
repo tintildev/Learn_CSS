@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+padding: 0;
+}
+
+*,
+*::before,
+*::after{
+box-sizing: inherit;
+}
+
+html{
+box-sizing: border-box;
+}
+
+.grid-container{
+  display: grid;
+}
+
+.project{
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.build{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+
+.info{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+
+.csstransition{
+  height: 90px;
+  width: 290px;
+  font-size: 28px;
+  color: white;
+  border: none;
+  background-color: lightblue;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
+.csstransition:hover {
+  background-color: lightgreen;
+}
