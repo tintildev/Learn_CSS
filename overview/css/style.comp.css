@@ -79,7 +79,12 @@ body {
   font-family: "Lato", sans-serif;
   color: var(--color-grey-dark-2);
   font-weight: 300;
-  line-height: 1.6; }
+  line-height: 1.6;
+  background-color: white; }
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #121212;
+      color: white; } }
 
 .container {
   display: flex;
@@ -101,6 +106,9 @@ h2 a {
   transition: 1s; }
   h2 a:hover {
     color: var(--color-primary); }
+  @media (prefers-color-scheme: dark) {
+    h2 a {
+      color: white; } }
 
 .heading-1 {
   font-size: 4.5rem;
@@ -118,6 +126,9 @@ h2 a {
     color: var(--color-black);
     line-height: 1;
     text-transform: uppercase; }
+    @media (prefers-color-scheme: dark) {
+      .heading-1--black {
+        color: white; } }
 
 .heading-2 {
   font-size: 4rem;
@@ -129,11 +140,17 @@ h2 a {
     line-height: 1;
     font-weight: 300;
     color: var(--color-grey-light-1); }
+    @media (prefers-color-scheme: dark) {
+      .heading-2--light {
+        color: white; } }
   .heading-2--dark {
     font-size: 4rem;
     line-height: 1;
     font-weight: 300;
     color: var(--color-grey-dark-1); }
+    @media (prefers-color-scheme: dark) {
+      .heading-2--dark {
+        color: white; } }
   .heading-2--black {
     font-weight: 300;
     color: var(--color-black);
@@ -143,11 +160,17 @@ h2 a {
     margin-bottom: 2vh;
     text-align: center;
     word-break: break-all; }
+    @media (prefers-color-scheme: dark) {
+      .heading-2--black {
+        color: white; } }
 
 .heading-3 {
   font-size: 2.4rem;
   color: var(--color-primary);
   text-transform: uppercase; }
+  @media (prefers-color-scheme: dark) {
+    .heading-3 {
+      color: white; } }
   .heading-3--black {
     font-weight: 300;
     color: var(--color-black);
@@ -157,6 +180,9 @@ h2 a {
     margin-bottom: 2vh;
     text-align: center;
     word-break: break-all; }
+    @media (prefers-color-scheme: dark) {
+      .heading-3--black {
+        color: white; } }
 
 .heading-4 {
   font-size: 1.9rem;
@@ -165,9 +191,15 @@ h2 a {
   .heading-4--light {
     font-size: 1.9rem;
     color: var(--color-grey-light-1); }
+    @media (prefers-color-scheme: dark) {
+      .heading-4--light {
+        color: white; } }
   .heading-4--dark {
     font-size: 1.9rem;
     color: var(--color-grey-dark-1); }
+    @media (prefers-color-scheme: dark) {
+      .heading-4--dark {
+        color: white; } }
 
 .heading--main {
   animation: moveInLeft .5s ease-out .5s;
@@ -290,6 +322,7 @@ h2 a {
   background-color: var(--color-grey-light-1);
   box-shadow: 0 3rem 6rem var(--color-black-transparent);
   border-radius: 3px;
+  border: 2px solid white;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 3.5rem;
@@ -343,6 +376,9 @@ h2 a {
     justify-self: center;
     color: var(--color-black);
     margin-bottom: 2rem; }
+    @media (prefers-color-scheme: dark) {
+      .kontakt__info {
+        color: white; } }
   .kontakt__btn {
     justify-self: center;
     width: 15vw;

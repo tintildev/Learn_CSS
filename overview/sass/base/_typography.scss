@@ -19,6 +19,10 @@ h2 a{
     &:hover{
         color: var(--color-primary);
     }
+
+    @media (prefers-color-scheme: dark) {
+        color: white;
+    }
     
 }
 
@@ -41,7 +45,11 @@ h2 a{
             font-size: 4.5rem;
             color: var(--color-black);
             line-height: 1;
-            text-transform: uppercase
+            text-transform: uppercase;
+
+            @media (prefers-color-scheme: dark) {
+                color: white;
+            }
         }
     }
     &-2 {
@@ -55,12 +63,20 @@ h2 a{
             line-height: 1;
             font-weight: 300;
             color: var(--color-grey-light-1);
+
+            @media (prefers-color-scheme: dark) {
+                color: white;
+            }
         }
         &--dark {
             font-size: 4rem;
             line-height: 1;
             font-weight: 300;
             color: var(--color-grey-dark-1);
+
+            @media (prefers-color-scheme: dark) {
+                color: white;
+            }
         }
     
         &--black {
@@ -72,12 +88,20 @@ h2 a{
             margin-bottom: 2vh;
             text-align: center;
             word-break: break-all;
+
+            @media (prefers-color-scheme: dark) {
+                color: white;
+            }
         }
     }
     &-3 {
         font-size: 2.4rem;
         color: var(--color-primary);
         text-transform: uppercase;
+
+        @media (prefers-color-scheme: dark) {
+            color: white;
+        }
 
         &--black {
             font-weight: 300;
@@ -88,6 +112,10 @@ h2 a{
             margin-bottom: 2vh;
             text-align: center;
             word-break: break-all;
+
+            @media (prefers-color-scheme: dark) {
+                color: white;
+            }
         }
     }
     &-4 {
@@ -98,10 +126,18 @@ h2 a{
         &--light {
             font-size: 1.9rem;
             color: var(--color-grey-light-1);
+
+            @media (prefers-color-scheme: dark) {
+                color: white;
+            }
         }
         &--dark {
             font-size: 1.9rem;
             color: var(--color-grey-dark-1);
+
+            @media (prefers-color-scheme: dark) {
+                color: white;
+            }
         }
 
         
